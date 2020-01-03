@@ -13,6 +13,14 @@ public class Message {
     @JoinColumn( name = "user_id")
     private User author;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public Message() {
     }
 
