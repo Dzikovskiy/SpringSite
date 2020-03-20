@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8364f207-573d-48f9-87d4-cda43fee9aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SpringSite.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +62,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -71,7 +78,20 @@
       <recent name="C:\SpringSite\SpringSite\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="e" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.SpringSite.service.e" />
+      <module name="SpringSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.SpringSite.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringSite" />
       <extension name="coverage">
@@ -88,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.e" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +141,19 @@
       <workItem from="1577469449165" duration="4244000" />
       <workItem from="1577910239145" duration="2832000" />
       <workItem from="1578056265201" duration="7003000" />
-      <workItem from="1578076915553" duration="4072000" />
+      <workItem from="1578076915553" duration="7445000" />
+      <workItem from="1578173273933" duration="71000" />
+      <workItem from="1579532256113" duration="147000" />
+      <workItem from="1579687591823" duration="1726000" />
+      <workItem from="1580206525153" duration="10000" />
+      <workItem from="1583407305122" duration="4202000" />
+      <workItem from="1583424632582" duration="783000" />
+      <workItem from="1583598427073" duration="738000" />
+      <workItem from="1583681962332" duration="77000" />
+      <workItem from="1584635124924" duration="6000" />
+      <workItem from="1584635422046" duration="3000" />
+      <workItem from="1584635578488" duration="36000" />
+      <workItem from="1584711375570" duration="9261000" />
     </task>
     <servers />
   </component>
@@ -132,62 +165,66 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="87" key="#Assign_Data_Sources/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1577912105764" />
-    <state x="392" y="87" key="#Project_Structure" timestamp="1577031595503">
+    <state x="392" y="87" key="#Project_Structure" timestamp="1578081699296">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="87" key="#Project_Structure/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1577031595503" />
+    <state x="392" y="87" key="#Project_Structure/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081699296" />
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577032492638">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1577032492638" />
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1578069031050">
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1584725940496">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578069031050" />
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584725940496" />
     <state x="530" y="209" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1577290428570">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="209" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1577290428570" />
+    <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584711433339">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584711433339" />
     <state x="596" y="288" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577290429781">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="596" y="288" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1577290429781" />
-    <state x="529" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578067828721">
+    <state x="529" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583407590024">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="529" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578067828721" />
-    <state width="1557" height="230" key="GridCell.Tab.0.bottom" timestamp="1578081076451">
+    <state x="529" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1583407590024" />
+    <state width="1557" height="208" key="GridCell.Tab.0.bottom" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076451" />
-    <state width="1557" height="230" key="GridCell.Tab.0.center" timestamp="1578081076450">
+    <state width="1557" height="208" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.0.center" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.0.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076450" />
-    <state width="1557" height="230" key="GridCell.Tab.0.left" timestamp="1578081076450">
+    <state width="1557" height="208" key="GridCell.Tab.0.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.0.left" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.0.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076450" />
-    <state width="1557" height="230" key="GridCell.Tab.0.right" timestamp="1578081076451">
+    <state width="1557" height="208" key="GridCell.Tab.0.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.0.right" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.0.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076451" />
-    <state width="1557" height="230" key="GridCell.Tab.1.bottom" timestamp="1578081076451">
+    <state width="1557" height="208" key="GridCell.Tab.0.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.1.bottom" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076451" />
-    <state width="1557" height="230" key="GridCell.Tab.1.center" timestamp="1578081076451">
+    <state width="1557" height="208" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.1.center" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.1.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076451" />
-    <state width="1557" height="230" key="GridCell.Tab.1.left" timestamp="1578081076451">
+    <state width="1557" height="208" key="GridCell.Tab.1.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.1.left" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.1.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076451" />
-    <state width="1557" height="230" key="GridCell.Tab.1.right" timestamp="1578081076451">
+    <state width="1557" height="208" key="GridCell.Tab.1.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
+    <state width="1557" height="208" key="GridCell.Tab.1.right" timestamp="1584732231815">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="230" key="GridCell.Tab.1.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578081076451" />
+    <state width="1557" height="208" key="GridCell.Tab.1.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584732231815" />
     <state width="1557" height="276" key="GridCell.Tab.2.bottom" timestamp="1578069944841">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -204,14 +241,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="276" key="GridCell.Tab.2.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578069944840" />
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1578076951651">
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1584635578922">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578076951651" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584635578922" />
     <state x="497" y="167" width="606" height="526" key="find.popup" timestamp="1578068309942">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="497" y="167" width="606" height="526" key="find.popup/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578068309942" />
+    <state x="182" y="13" key="new project wizard" timestamp="1583682032111">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="13" key="new project wizard/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1583682032111" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1577284603460">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
