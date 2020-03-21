@@ -18,13 +18,13 @@
 
         <b>Find by text</b>
         <form method="get" action="/main">
-            <input type="text" name="findByText" >
+            <input type="text" name="findByText" <#if findByText??> value="${findByText}"</#if>>
             <button type="submit">Find</button>
         </form>
 
         <b>Find by tag</b>
         <form method="get" action="/main">
-            <input type="text" name="findByTag" >
+            <input type="text" name="findByTag"  <#if findByTag??> value="${findByTag}"</#if>>
             <button type="submit">Find</button>
         </form>
 
@@ -44,8 +44,7 @@
             <strong>${message.authorName}</strong>
             <div>
                 <#if message.filename??>
-                    <img scr="/img/${message.filename}">
-
+                    <img src="/img/${message.filename}">
                 </#if>
             </div>
         </div>
