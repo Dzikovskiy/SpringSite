@@ -40,14 +40,14 @@ public class UserService implements UserDetailsService {
 
         if (!StringUtils.isEmpty(user.getEmail())) {
             String message = String.format(
-                    "Hello, %s" + "\n" + "Welcome to our site: http://localhost:8080/activation/%s",
+                    "Hello, %s" + "\n" + "Welcome to our site: http://localhost:8080/activate/%s",
                     user.getUsername(), user.getActivationCode()
 
             );
             mailSender.send(user.getEmail(), "Activation code", message);
         }
 
-        return false;
+        return true;
     }
 
     public boolean activateUser(String code) {

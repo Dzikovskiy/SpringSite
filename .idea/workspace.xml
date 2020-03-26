@@ -3,17 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="8364f207-573d-48f9-87d4-cda43fee9aaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/MailConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/service/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/service/MailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringSite/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SpringSite/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/MessageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/MailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/service/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringSite/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.ftl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/sweater-FileUpload" />
+    <property name="last_opened_file_path" value="C:/projects/sweater-MailVerification" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -159,6 +177,9 @@
       <workItem from="1585075907062" duration="3893000" />
       <workItem from="1585079866931" duration="1181000" />
       <workItem from="1585167663692" duration="2188000" />
+      <workItem from="1585218131172" duration="4890000" />
+      <workItem from="1585226625524" duration="1514000" />
+      <workItem from="1585243828307" duration="85000" />
     </task>
     <servers />
   </component>
@@ -198,42 +219,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="529" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1583407590024" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1584794201682">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1585218414290">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1584794201682" />
-    <state width="1557" height="389" key="GridCell.Tab.0.bottom" timestamp="1585169853687">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585218414290" />
+    <state width="1557" height="211" key="GridCell.Tab.0.bottom" timestamp="1585229032635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.0.center" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032635" />
+    <state width="1557" height="211" key="GridCell.Tab.0.center" timestamp="1585229032634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.0.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.0.left" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.0.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032634" />
+    <state width="1557" height="211" key="GridCell.Tab.0.left" timestamp="1585229032634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.0.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.0.right" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.0.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032634" />
+    <state width="1557" height="211" key="GridCell.Tab.0.right" timestamp="1585229032634">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.0.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.1.bottom" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.0.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032634" />
+    <state width="1557" height="211" key="GridCell.Tab.1.bottom" timestamp="1585229032635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.1.center" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032635" />
+    <state width="1557" height="211" key="GridCell.Tab.1.center" timestamp="1585229032635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.1.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.1.left" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.1.center/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032635" />
+    <state width="1557" height="211" key="GridCell.Tab.1.left" timestamp="1585229032635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.1.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
-    <state width="1557" height="389" key="GridCell.Tab.1.right" timestamp="1585169853687">
+    <state width="1557" height="211" key="GridCell.Tab.1.left/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032635" />
+    <state width="1557" height="211" key="GridCell.Tab.1.right" timestamp="1585229032635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="389" key="GridCell.Tab.1.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585169853687" />
+    <state width="1557" height="211" key="GridCell.Tab.1.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229032635" />
     <state width="1557" height="276" key="GridCell.Tab.2.bottom" timestamp="1578069944841">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -250,14 +271,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="276" key="GridCell.Tab.2.right/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578069944840" />
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1585167685263">
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1585243845630">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585167685263" />
-    <state x="497" y="167" width="606" height="526" key="find.popup" timestamp="1578068309942">
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585243845630" />
+    <state x="497" y="167" width="607" height="536" key="find.popup" timestamp="1585229011958">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="497" y="167" width="606" height="526" key="find.popup/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1578068309942" />
+    <state x="497" y="167" width="607" height="536" key="find.popup/0.0.1600.860/-1920.0.1920.1040@0.0.1600.860" timestamp="1585229011958" />
     <state x="182" y="13" key="new project wizard" timestamp="1583682032111">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
